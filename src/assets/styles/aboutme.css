@@ -1,0 +1,104 @@
+.home-page img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.home-page {
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.circle-top {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 2px solid var(--golden-shadow);
+  position: absolute;
+  top: -60px;
+  right: -60px;
+}
+
+.circle-bottom {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid var(--golden-shadow);
+  position: absolute;
+  bottom: -40px;
+  left: -30px;
+}
+
+.avatar {
+  background-color: var(--mid);
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid var(--pale);
+}
+
+.home-page h1 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.home-page p:nth-child(4) {
+  color: var(--pale);
+  margin: 0.5rem 0 1rem;
+}
+
+.home-page div:nth-child(5) {
+  width: 2.5rem;
+  height: 3px;
+  background-color: var(--light);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.home-page p:nth-child(6) {
+  font-size: 0.8rem;
+  color: var(--pale);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 2rem 0 2rem;
+}
+
+.tags span {
+  background-color: #081b3a;
+  color: var(--pale);
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  border: 2px solid var(--pale);
+}
+
+.home-page div:nth-child(8) {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-page a {
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--pale);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+}
