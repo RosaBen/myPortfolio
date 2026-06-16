@@ -1,5 +1,6 @@
 import {data, pages} from "./assets/scripts/data"
 import Coverpage from "./components/Coverpage"
+import NavigatePages from "./components/NavigatePages"
 // import Home from "./components/Home"
 
 import "./assets/styles/coverpage.css"
@@ -9,9 +10,12 @@ function App() {
 
 const {name, avatar, role, bio, tags, email,website, websiteLabel} = data
   return (
-    <main className="container">
+    <>
+        <main className="container">
       <div className="left body"></div>
-       <div className="spine"></div>
+       <div className="spine">
+        <span className="spine-text">Portfolio · {name}</span>
+       </div>
        <div className="body right">
         <Coverpage/>
        </div>
@@ -25,9 +29,9 @@ const {name, avatar, role, bio, tags, email,website, websiteLabel} = data
     website={website}
     websiteLabel={websiteLabel}
   /> */}
-
- 
     </main>
+    <NavigatePages/>
+    </>
   )
 }
 
