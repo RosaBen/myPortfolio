@@ -64,3 +64,19 @@ export const pages = [
   { left: "back-cover", right: "body" },
 ];
 
+
+export const tableContents = [
+  { label: "Mini Résumé & reconversion", page: 1 },
+  { label: "Projet — App de tâches", page: 1 },
+  { label: "Projet — Site vitrine", page: 2 },
+  { label: "Projet — Dashboard", page: 2 },
+  { label: "Projet — API REST", page: 3 },
+  { label: "Contact & liens", page: 3 },
+];
+
+export const bottomPageLabels = {
+  0: { left: "", right: "Table des matières" },
+  1: { left: "Mini résumé", right: "Projet 01" },
+  2: { left: "Projet 02", right: "Projet 03" },
+  3: { left: "Projet 04", right: "Contact" },
+};
